@@ -92,12 +92,12 @@ button { font: inherit; }
 .timeline { border-left: 1px solid #35445a; margin-left: 140px; }
 .job { display: grid; grid-template-columns: 175px 1fr; gap: 24px; position: relative; padding: 0 0 38px 28px; }
 .job:before { content: ''; position: absolute; left: -5px; top: 7px; width: 9px; height: 9px; border-radius: 50%; background: var(--neon); box-shadow: 0 0 0 5px #111a20; }
-.job-date { padding-top: 5px; color: #a4afc0; white-space: nowrap; font-size: 13px; }
+.job-date { padding-top: 5px; color: #a4afc0; white-space: nowrap; font-size: 14px; }
 .job-content h3 { font-size: 20px; line-height: 1.4; margin: 0; font-weight: 600; color: #e6ebf5; }
 .job-title { display: flex; align-items: flex-start; justify-content: space-between; }
 .job-content>div>p { margin: 5px 0; color: #a4afc0; font-size: 15px; }
 .job-content p span, .education-card p span, .cert p span { color: var(--neon); padding: 0 4px; }
-.job-badge { border: 1px solid #465b78; color: #a9c3f4; border-radius: 3px; padding: 4px 8px; font-size: 11px; }
+.job-badge { border: 1px solid #465b78; color: #a9c3f4; border-radius: 3px; padding: 4px 8px; font-size: 12px; }
 .job-content ul { margin: 13px 0 0; padding-left: 18px; color: #aab5c5; font-size: 15px; line-height: 1.9; }
 .job-content li { padding-left: 3px; margin-bottom: 3px; }
 .job-content li::marker { color: var(--neon); }
@@ -111,7 +111,7 @@ button { font: inherit; }
 .skill-card:hover { transform: translateY(-3px); border-color: #61783d; box-shadow: 0 10px 30px #0003; }
 .skill-number { position: absolute; right: 18px; top: 15px; color: #9aaac2; font-size: 12px; }
 .skill-card h3 { font-size: 18px; margin: 0 0 16px; font-weight: 600; }
-.skill-tags span { padding: 5px 8px; font-size: 13px; }
+.skill-tags span { padding: 5px 8px; font-size: 14px; }
 .section-note { color: #a4afbf; font-size: 14px; position: absolute; right: 0; bottom: 1px; }
 
 .projects-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
@@ -133,7 +133,7 @@ button { font: inherit; }
 .project-info h3 { font-size: 19px; line-height: 1.4; margin: 0 0 8px; min-height: 53px; }
 .project-info>p { min-height: 69px; font-size: 15px; color: #aab5c5; line-height: 1.75; margin: 0 0 14px; }
 .project-tags { gap: 6px; padding-bottom: 48px; }
-.project-tags span { font-size: 12px; padding: 4px 7px; }
+.project-tags span { font-size: 14px; padding: 4px 7px; }
 .repo-github { position: absolute; width: 43px; height: 43px; left: 20px; bottom: 15px; color: var(--neon); border-color: #536b43; }
 .repo-github svg { width: 21px; height: 21px; }
 
@@ -212,24 +212,24 @@ button { font: inherit; }
   .about-body p { font-size: 15px; }
   .timeline { margin-left: 4px; }
   .job { grid-template-columns: 1fr; gap: 5px; padding-left: 21px; padding-bottom: 29px; }
-  .job-date { font-size: 12px; }
+  .job-date { font-size: 14px; }
   .job-content h3 { font-size: 18px; }
   .job-title { gap: 9px; }
   .job-content ul { font-size: 14px; }
   .job.compact { grid-template-columns: 150px 1fr; gap: 10px; padding-bottom: 19px; }
   .job.compact .job-content h3 { font-size: 14px; }
-  .job-badge { font-size: 10px; }
+  .job-badge { font-size: 14px; }
   .skills-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .skill-card { padding: 18px 14px; min-height: 145px; }
   .skill-card h3 { font-size: 16px; padding-right: 15px; }
-  .skill-tags span { font-size: 12px; }
+  .skill-tags span { font-size: 14px; }
   .section-note { position: static; margin-top: 8px; }
   .projects-grid { grid-template-columns: 1fr; gap: 14px; }
   .project-visual { height: 178px; }
   .project-info { min-height: 205px; padding: 18px; }
   .project-info h3 { min-height: 0; font-size: 18px; }
   .project-info>p { min-height: auto; font-size: 15px; }
-  .project-tags span { font-size: 13px; }
+  .project-tags span { font-size: 14px; }
   .education-grid { grid-template-columns: 1fr; gap: 25px; }
   .education-card { min-height: 215px; }
   .contact-section { margin-top: 36px; margin-bottom: 33px; padding: 38px 23px 27px; }

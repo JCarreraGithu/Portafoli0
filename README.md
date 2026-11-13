@@ -11,8 +11,9 @@ npm run dev
 
 Para generar la versión de producción: `npm run build`.
 
-## CV
+## Archivos personales
 
-Coloca el archivo PDF real en `public/CV_Jimmy_Carrera.pdf`. El botón «Descargar CV» apunta a esa ruta. No se incluyó un documento inventado.
+- El CV real está en `public/CV_Jimmy_Carrera.pdf` y se descarga desde el botón principal. Se copió desde Descargas; el original se conservó.
+- La foto de perfil está en `public/images/foto-perfil.jpg`.
 
-Los proyectos no tienen enlaces a repositorios porque no se proporcionaron URLs reales.
+Los proyectos enlazan a los repositorios indicados en sus tarjetas.
